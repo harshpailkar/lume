@@ -5,7 +5,8 @@
             "includePath": [
                 "${workspaceFolder}/**"
             ],
-            "defines": []
+            "defines": [],
+            "intelliSenseMode": "macos-clang-x64"
         }
     ],
     "version": 4
