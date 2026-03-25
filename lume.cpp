@@ -48,7 +48,7 @@ void OrderBook::addOrder(uint64_t orderId, bool isBuy, int64_t price, uint32_t q
                 bestAskLevel.totalQuantity -= matchQuantity;
 
                 if (restingOrder.quantity == 0) {
-                    orderMap.erase(restingOrder.orderId); // Erase from map before popping
+                    orderMap.erase(restingOrder.orderId);
                     ordersAtLevel.pop_front();
                 }
             }
